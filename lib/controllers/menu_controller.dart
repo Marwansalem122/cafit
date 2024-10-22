@@ -9,6 +9,10 @@ class MenuPageController {
     context.pushNamed(Routes.homePage);
   }
 
+ 
+ 
+ 
+
   static List planArr = [
     {
       "name": StringsManager.running,

@@ -6,6 +6,9 @@ import 'package:cafit/pages/onboarding/step1_page.dart';
 import 'package:cafit/pages/onboarding/step2_page.dart';
 import 'package:cafit/pages/onboarding/step3_page.dart';
 import 'package:cafit/pages/splash/splash.dart';
+import 'package:cafit/pages/workout/workout_details_page.dart';
+import 'package:cafit/pages/workout/workout_page.dart';
+import 'package:cafit/pages/workout/workout_page_2.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -26,8 +29,14 @@ class AppRouter {
         return createRoute(const Step3Page());
       case Routes.menuPage:
         return createRoute(const MenuPage());
-         case Routes.homePage:
-   return createRoute(const HomePage());
+      case Routes.homePage:
+        return createRoute(const HomePage());
+      case Routes.workOutPage:
+        return createRoute(const WorkoutPage());
+      case Routes.workOutPage2:
+        return createRoute(const WorkoutPage2());
+      case Routes.workoutDetailPage:
+        return createRoute(const WorkoutDetailPage());
       default:
         return materialPageBuilder(const ErrorPage());
     }

@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                   vertical: SizeConfig.screenHeight! * HeightSizeManager.h14),
               child: SizedBox(
                 width: SizeConfig.screenWidth!,
-                height: SizeConfig.screenHeight! * HeightSizeManager.h320,
+                height: SizeConfig.screenHeight! * HeightSizeManager.h200,
                 child: CarouselSlider.builder(
                   options: CarouselOptions(
                       autoPlay: false,
@@ -67,8 +67,8 @@ class _HomePageState extends State<HomePage> {
                     var dObj = HomeController.dataArr[index] as Map? ?? {};
                     return Container(
                       margin: EdgeInsets.symmetric(
-                          vertical:
-                              SizeConfig.screenHeight! * HeightSizeManager.h10,
+                          // vertical:
+                          // SizeConfig.screenHeight! * HeightSizeManager.h10,
                           horizontal:
                               SizeConfig.screenWidth! * WidthSizeManager.w10),
                       decoration: BoxDecoration(
@@ -86,9 +86,7 @@ class _HomePageState extends State<HomePage> {
                           ClipRRect(
                             borderRadius: BorderRadius.circular(10),
                             child: Image.asset(dObj["image"].toString(),
-                                width: double.maxFinite,
-                                height: double.maxFinite,
-                                fit: BoxFit.cover),
+                                width: 300, height: 150, fit: BoxFit.cover),
                           ),
                           Padding(
                             padding: EdgeInsets.all(SizeConfig.screenHeight! *
@@ -114,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                   vertical: SizeConfig.screenHeight! * HeightSizeManager.h8),
               child: SizedBox(
                 width: SizeConfig.screenWidth,
-                height: SizeConfig.screenHeight! * HeightSizeManager.h880,
+                height: SizeConfig.screenHeight! * HeightSizeManager.h450,
                 child: CarouselSlider.builder(
                   options: CarouselOptions(
                       autoPlay: false,
@@ -130,14 +128,15 @@ class _HomePageState extends State<HomePage> {
                     var tObj =
                         HomeController.trainingDayArr[index] as Map? ?? {};
                     return Container(
+                      height: SizeConfig.screenHeight! * HeightSizeManager.h400,
                       margin: EdgeInsets.symmetric(
                           vertical:
-                              SizeConfig.screenHeight! * HeightSizeManager.h10,
+                              SizeConfig.screenHeight! * HeightSizeManager.h8,
                           horizontal:
                               SizeConfig.screenWidth! * WidthSizeManager.w10),
                       padding: EdgeInsets.symmetric(
                           vertical:
-                              SizeConfig.screenHeight! * HeightSizeManager.h20,
+                              SizeConfig.screenHeight! * HeightSizeManager.h16,
                           horizontal:
                               SizeConfig.screenWidth! * WidthSizeManager.w20),
                       decoration: BoxDecoration(
@@ -164,13 +163,17 @@ class _HomePageState extends State<HomePage> {
                                 SizeConfig.screenHeight! * HeightSizeManager.h8,
                           ),
                           Text(
-                            "week 1",
+                            StringsManager.week1,
                             style: TextStyle(
                                 color: AppColor.secondaryText.withOpacity(0.8),
                                 fontSize: SizeConfig.getResponsiveFontSize(16),
                                 fontWeight: FontWeight.w700),
                           ),
-                          const Spacer(),
+                          // const Spacer(),
+                          SizedBox(
+                            height:
+                                SizeConfig.screenHeight! * HeightSizeManager.h8,
+                          ),
                           ExercisesRow(
                               number: StringsManager.number1,
                               title: StringsManager.exercises1,
@@ -188,34 +191,32 @@ class _HomePageState extends State<HomePage> {
                               time: StringsManager.minute5,
                               isLast: true,
                               onPressed: () {}),
-                          const Spacer(),
+                          // const Spacer(),
+                          SizedBox(
+                            height:
+                                SizeConfig.screenHeight! * HeightSizeManager.h4,
+                          ),
                           SizedBox(
                             width:
-                                SizeConfig.screenWidth! * WidthSizeManager.w150,
+                                SizeConfig.screenWidth! * WidthSizeManager.w170,
                             height: SizeConfig.screenHeight! *
                                 HeightSizeManager.h40,
                             child: RoundButton(
                                 title: StringsManager.start,
                                 onPressed: () {
                                   if (index % 2 == 0) {
-                                    // Navigator.push(
-                                    // context,
-                                    // MaterialPageRoute(
-                                    // builder: (context) =>
-                                    // const WorkoutView()));
+                                    HomeController()
+                                        .navigateToWorkoutPage(context);
                                   } else {
-                                    // Navigator.push(
-                                    // context,
-                                    // MaterialPageRoute(
-                                    // builder: (context) =>
-                                    // const WorkoutView2()));
+                                    HomeController()
+                                        .navigateToWorkoutPage2(context);
                                   }
                                 }),
                           ),
-                          SizedBox(
-                            height: SizeConfig.screenHeight! *
-                                HeightSizeManager.h20,
-                          )
+                          // SizedBox(
+                          // height: SizeConfig.screenHeight! *
+                          // HeightSizeManager.h20,
+                          // )
                         ],
                       ),
                     );

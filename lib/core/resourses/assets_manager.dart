@@ -15,12 +15,16 @@ class AssetsManager {
   static const String tickImage = "$IMAGE_PATH/tick$formatePng";
   static const String activeImage = "$IMAGE_PATH/active$formatePng";
   static const String u1Image = "$IMAGE_PATH/u1$formatePng";
+  static const String u2Image = "$IMAGE_PATH/u2$formatePng";
   static const String nextImage = "$IMAGE_PATH/next$formatePng";
   static const String menuCloseImage = "$IMAGE_PATH/meun_close$formatePng";
   static const String firstImage = "$IMAGE_PATH/1$formatePng";
   static const String secondImage = "$IMAGE_PATH/2$formatePng";
   static const String thirdImage = "$IMAGE_PATH/3$formatePng";
   static const String fiveImage = "$IMAGE_PATH/5$formatePng";
+  static const String nodeMusicImage = "$IMAGE_PATH/node_music$formatePng";
+  static const String shareImage = "$IMAGE_PATH/share$formatePng";
+  static const String likeImage = "$IMAGE_PATH/like$formatePng";
   
 
 
@@ -44,6 +48,8 @@ class AssetsManager {
   static const String menuSupportImage= "$IMAGE_PATH/menu_support$formatePng";
   static const String starImage= "$IMAGE_PATH/star$formatePng";
   static const String blackWhiteImage= "$IMAGE_PATH/black_white$formatePng";
+  static const String moreImage = "$IMAGE_PATH/more$formatePng";
+  static const String playImage = "$IMAGE_PATH/play$formatePng";
 
   
 

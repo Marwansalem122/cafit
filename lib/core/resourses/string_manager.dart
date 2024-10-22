@@ -286,6 +286,21 @@ static const String trainingDay2 =  "Training Day 2";
 static const String trainingDay3 =  "Training Day 3";
 static const String legExtension =  "Leg Extension";
 static const String pushUp =  "Push-Up";
+static const String week1 =  "week 1";
+static const String climber = "Climber";
+static const String workout ="workout";
+static const String seeMore ="see more";
+static const String jumping ="Jumping";
+static const String subtitleWorkout ="Personalized workouts will help\nyou gain strength";
+static const String mikhailEduardovich ="Mikhail Eduardovich";
+static const String nineDaysAgo ="09 days ago";
+static const String elevenDaysAgo ="11 days ago";
+static const String twelveDaysAgo ="12 days ago";
+static const String thirteenDaysAgo ="13 days ago";
+static const String recommended ="Recommended";
+static const String responses17 ="17 Responses";
+static const String loremText ="Lorem ipsum dolor sit amet, conse ctetur adipiscing elit,";
+
 
 
 }

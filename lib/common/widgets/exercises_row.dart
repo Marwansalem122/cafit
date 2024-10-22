@@ -1,11 +1,9 @@
-
 import 'package:cafit/common/helper/color_extension.dart';
 import 'package:cafit/core/config/size_config.dart';
 import 'package:cafit/core/resourses/assets_manager.dart';
 import 'package:cafit/core/resourses/height_size_manager.dart';
 import 'package:cafit/core/resourses/width_size_manager.dart';
 import 'package:flutter/material.dart';
-
 
 class ExercisesRow extends StatelessWidget {
   final String number;
@@ -28,12 +26,13 @@ class ExercisesRow extends StatelessWidget {
     return InkWell(
       onTap: onPressed,
       child: Padding(
-        padding:  EdgeInsets.symmetric(vertical: SizeConfig.screenHeight!*HeightSizeManager.h16),
+        padding: EdgeInsets.symmetric(
+            vertical: SizeConfig.screenHeight! * HeightSizeManager.h12),
         child: Row(
           children: [
             Container(
-              width: SizeConfig.screenWidth!*WidthSizeManager.w30,
-              height: SizeConfig.screenHeight!*HeightSizeManager.h30,
+              width: SizeConfig.screenWidth! * WidthSizeManager.w30,
+              height: SizeConfig.screenHeight! * HeightSizeManager.h30,
               decoration: BoxDecoration(
                 color: isActive
                     ? AppColor.primary.withOpacity(0.3)
@@ -42,9 +41,8 @@ class ExercisesRow extends StatelessWidget {
               ),
               alignment: Alignment.center,
               child: Container(
-                width: 
-SizeConfig.screenWidth!*WidthSizeManager.w25,
-                height: SizeConfig.screenHeight!*HeightSizeManager.h25,
+                width: SizeConfig.screenWidth! * WidthSizeManager.w25,
+                height: SizeConfig.screenHeight! * HeightSizeManager.h25,
                 decoration: BoxDecoration(
                   color: isActive ? AppColor.primary : AppColor.gray,
                   borderRadius: BorderRadius.circular(12.5),
@@ -53,8 +51,9 @@ SizeConfig.screenWidth!*WidthSizeManager.w25,
                 child: isLast
                     ? Image.asset(
                         AssetsManager.starImage,
-                        width: SizeConfig.screenWidth!*WidthSizeManager.w15,
-                        height: SizeConfig.screenHeight!*HeightSizeManager.h16,
+                        width: SizeConfig.screenWidth! * WidthSizeManager.w15,
+                        height:
+                            SizeConfig.screenHeight! * HeightSizeManager.h16,
                       )
                     : Text(
                         number,
@@ -67,7 +66,8 @@ SizeConfig.screenWidth!*WidthSizeManager.w25,
             ),
             Expanded(
               child: Padding(
-                padding:  EdgeInsets.symmetric(horizontal: SizeConfig.screenWidth!*WidthSizeManager.w8),
+                padding: EdgeInsets.symmetric(
+                    horizontal: SizeConfig.screenWidth! * WidthSizeManager.w8),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -91,8 +91,8 @@ SizeConfig.screenWidth!*WidthSizeManager.w25,
             ),
             Image.asset(
               AssetsManager.informationIcon,
-              width: SizeConfig.screenWidth!*WidthSizeManager.w20,
-              height: SizeConfig.screenHeight!*HeightSizeManager.h20,
+              width: SizeConfig.screenWidth! * WidthSizeManager.w20,
+              height: SizeConfig.screenHeight! * HeightSizeManager.h20,
             )
           ],
         ),

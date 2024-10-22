@@ -40,3 +40,23 @@ screen"       width="45%" />
    
 </p>
 
+<p align="center">
+<img src="screenshot\fitnessApp1.png" alt="fitness 
+screen"       width="45%" />
+<img src="screenshot\fitnessApp2.png" alt="fitness 
+screen"       width="45%" />
+<img src="screenshot\fitnessApp3.png" alt="fitness 
+screen"       width="45%" />
+   
+</p>
+<p align="center">
+<img src="screenshot\fTraning1.png" alt="fTraning 
+screen"       width="45%" />
+   <img src="screenshot\fTraning2.png" alt="fTraning 
+screen"       width="45%" />
+<img src="screenshot\fTraning2p2.png" alt="fTraning 
+screen"       width="45%" />
+<img src="screenshot\detailsTraingin.png" alt="Training 
+screen"       width="45%" />
+</p>
+

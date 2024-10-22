@@ -1,6 +1,7 @@
 import 'package:cafit/common/helper/navigate_extension.dart';
 import 'package:cafit/core/resourses/assets_manager.dart';
 import 'package:cafit/core/resourses/string_manager.dart';
+import 'package:cafit/core/route/routes.dart';
 import 'package:flutter/material.dart';
 
 class HomeController {
@@ -9,6 +10,12 @@ class HomeController {
   void navigateToBack(BuildContext context){
     context.pop();
   }
+   void navigateToWorkoutPage(BuildContext context) {
+   context.pushNamed(Routes.workOutPage);
+ }
+ void navigateToWorkoutPage2(BuildContext context){
+   context.pushNamed(Routes.workOutPage2);
+ }
  static List dataArr = [
   {
     "name": StringsManager.running,
