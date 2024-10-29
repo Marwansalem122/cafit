@@ -17,6 +17,8 @@ class HeightSizeManager {
   static const double h54 = 0.0675;
 
   static const double h60 = 0.075;
+  static const double h70= 0.0875;
+  static const double h80 = 0.1;
   static const double h110 = 0.1375;
   static const double h112f5 = 0.141;
 
@@ -28,17 +30,23 @@ class HeightSizeManager {
   static const double h240 = 0.3;
   static const double h250 = 0.3125;
   static const double h290 = 0.3625;
-  static const double h320 = 0.4;
-  static const double h400 = 0.5;
 
+  static const double h310 = 0.3875;
+  static const double h320 = 0.4;
+
+  static const double h400 = 0.5;
+  static const double h425 = 0.425;
   static const double h440 = 0.55;
   static const double h450 = 0.5625;
 
   static const double h460 = 0.575;
   static const double h480 = 0.6;
+  static const double h520 = 0.65;
 
   static const double h640 = 0.8;
 
   static const double h650 = 0.8125;
+
+  static const double h720 = 0.9;
   static const double h880 = 1.1;
 }

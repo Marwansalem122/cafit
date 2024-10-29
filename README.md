@@ -1,7 +1,6 @@
 # cafit
 
-A new Flutter project.
-
+A new Flutter project
 ## Getting Started
 </p>
 <p align="center">
@@ -59,4 +58,22 @@ screen"       width="45%" />
 <img src="screenshot\detailsTraingin.png" alt="Training 
 screen"       width="45%" />
 </p>
+<p align="center">
+<img src="screenshot\running1.png" alt="Training 
+screen"       width="45%" />
+<img src="screenshot\running2.png" alt="Training 
+screen"       width="45%" />
+</p>
+<p align="center">
+<img src="screenshot\running3.png" alt="Training 
+screen"       width="45%" />
+<img src="screenshot\running4.png" alt="Training 
+screen"       width="45%" />
+</p>
+<p align="center">
+<img src="screenshot\running5.png" alt="Training 
+screen"       width="45%" />
+
+</p>
+
 

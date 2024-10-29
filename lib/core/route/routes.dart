@@ -11,4 +11,13 @@ class Routes {
   static const String step3Page = "/step3Page";
   static const String menuPage = "/menuPage";
   static const String workoutDetailPage = "/WorkoutDetailPage";
+
+  static const String yogaPage = "/yogaPage";
+  static const String weightPage = "/weightPage";
+  static const String shedulePage = "/shedulePage";
+  static const String mealPlanPage = "/mealPlanPage";
+  static const String mealPlanPage2 = "/mealPlanPage2";
+  static const String exercisePage = "/exercisePage";
+  static const String exercisePage2 = "/exercisePage2";
+  static const String runningPage = "/runningPage";
 }

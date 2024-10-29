@@ -9,6 +9,7 @@ class AppColor {
   static Color get green=> const Color(0xff77E517);
   
   static Color get white => Colors.white;
+  static Color get white2 => const Color(0xffE6E6E6);
   static Color get gray => const Color(0xff8C8C8C);
   static Color get divider => const Color(0xffE1E1E1);
 

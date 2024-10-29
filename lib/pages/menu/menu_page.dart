@@ -48,14 +48,18 @@ class _MenuPageState extends State<MenuPage> {
                     child: Column(
                       children: [
                         SizedBox(
+                          height:
+                              SizeConfig.screenHeight! * HeightSizeManager.h35,
+                        ),
+                        SizedBox(
                           height: kTextTabBarHeight,
                           child: Row(
                             children: [
                               ClipRRect(
-                                borderRadius: BorderRadius.circular(22.5),
+                                borderRadius: BorderRadius.circular(30),
                                 child: Image.asset(AssetsManager.u1Image,
                                     width: SizeConfig.screenHeight! *
-                                        WidthSizeManager.w45,
+                                        WidthSizeManager.w30,
                                     height: SizeConfig.screenHeight! *
                                         HeightSizeManager.h45,
                                     fit: BoxFit.cover),
@@ -100,13 +104,11 @@ class _MenuPageState extends State<MenuPage> {
                                   return PlanRow(
                                     mObj: itemObj,
                                     onPressed: () {
-                                      // Navigator.pop(context);
+                                      MenuPageController()
+                                          .navigateBack(context);
                                       if (index == 1) {
-                                        // Navigator.push(
-                                        // context,
-                                        // MaterialPageRoute(
-                                        // builder: (context) =>
-                                        // const YogaView()));
+                                        MenuPageController()
+                                            .navigateToYogaPage(context);
                                       }
                                     },
                                   );
@@ -290,43 +292,35 @@ class _MenuPageState extends State<MenuPage> {
                     MenuPageController().navigateToHomePage(context);
                     break;
                   case "2":
-                    // Navigator.push(
-                    // context,
-                    // MaterialPageRoute(
-                    // builder: (context) => const WeightView()));
+                    MenuPageController().navigateToWeightPage(context);
+
                     break;
                   case "3":
                     Scaffold.of(context).openDrawer();
                     break;
                   case "5":
-                    // Navigator.push(
-                    // context,
-                    // MaterialPageRoute(
-                    // builder: (context) => const MealPlanView2()));
+                    MenuPageController().navigateToMealPlanPage2(context);
+
                     break;
                   case "6":
-                    // Navigator.push(
-                    // context,
-                    // MaterialPageRoute(
-                    // builder: (context) => const ScheduleView()));
+                    MenuPageController().navigateToSchedulePage(context);
+
                     break;
                   case "7":
-                    // Navigator.push(
-                    // context,
-                    // MaterialPageRoute(
-                    // builder: (context) => const RunningView()));
+                    MenuPageController().navigateToRunningPage(context);
+
+                    // MenuPageController().navigateToMealPlanPage2(context);
                     break;
                   case "8":
-                    // Navigator.push(
-                    // context,
-                    // MaterialPageRoute(
-                    // builder: (context) => const ExerciseView2()));
+                    MenuPageController().navigateToExercise2Page(context);
+
                     break;
                   case "9":
                     // Navigator.push(
                     // context,
                     // MaterialPageRoute(
                     // builder: (context) => const TipsView()));
+                    MenuPageController().navigateToExercisePage(context);
                     break;
                   case "10":
                     // Navigator.push(

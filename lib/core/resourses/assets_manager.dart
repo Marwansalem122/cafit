@@ -25,6 +25,23 @@ class AssetsManager {
   static const String nodeMusicImage = "$IMAGE_PATH/node_music$formatePng";
   static const String shareImage = "$IMAGE_PATH/share$formatePng";
   static const String likeImage = "$IMAGE_PATH/like$formatePng";
+  static const String w1Image = "$IMAGE_PATH/w_1$formatePng";
+  static const String w2Image = "$IMAGE_PATH/w_2$formatePng";
+  static const String w3Image = "$IMAGE_PATH/w_3$formatePng";
+  static const String blackFoImage = "$IMAGE_PATH/black_fo$formatePng";
+  static const String nextGoImage = "$IMAGE_PATH/next_go$formatePng";
+  static const String f1Icon = "$IMAGE_PATH/f1$formatePng";
+  static const String f2Icon = "$IMAGE_PATH/f2$formatePng";
+  static const String f3Icon = "$IMAGE_PATH/f3$formatePng";
+  static const String f4Icon = "$IMAGE_PATH/f4$formatePng";
+  static const String rLocationImage = "$IMAGE_PATH/r_location$formatePng";
+  static const String rLockImage = "$IMAGE_PATH/r_lock$formatePng";
+  static const String rPauseImage = "$IMAGE_PATH/r_pause$formatePng";
+  static const String rdistanceImage = "$IMAGE_PATH/r_distance$formatePng";
+  static const String dashboardHalfImage = "$IMAGE_PATH/dashboard-half$formatePng";
+  static const String timeWallClockImage = "$IMAGE_PATH/time-wall-clock$formatePng";
+  static const String rHeartbeatImage = "$IMAGE_PATH/r_heartbeat$formatePng";
+  static const String graoup1309Image = "$IMAGE_PATH/Group 1309$formatePng";
   
 
 

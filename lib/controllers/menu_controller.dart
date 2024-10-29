@@ -9,9 +9,36 @@ class MenuPageController {
     context.pushNamed(Routes.homePage);
   }
 
- 
- 
- 
+  void navigateToYogaPage(BuildContext context) {
+    context.pushNamed(Routes.yogaPage);
+  }
+
+  void navigateToWeightPage(BuildContext context) {
+    context.pushNamed(Routes.weightPage);
+  }
+
+  void navigateToSchedulePage(BuildContext context) {
+    context.pushNamed(Routes.shedulePage);
+  }
+
+  void navigateToMealPlanPage2(BuildContext context) {
+    context.pushNamed(Routes.mealPlanPage2);
+  }
+
+  void navigateToExercise2Page(BuildContext context) {
+    context.pushNamed(Routes.exercisePage2);
+  }
+
+  void navigateToExercisePage(BuildContext context) {
+    context.pushNamed(Routes.exercisePage);
+  }
+   void navigateToRunningPage(BuildContext context) {
+   context.pushNamed(Routes.runningPage);
+ }
+
+  void navigateBack(BuildContext context) {
+    context.pop();
+  }
 
   static List planArr = [
     {
