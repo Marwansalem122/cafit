@@ -201,7 +201,9 @@ class _RunningPageState extends State<RunningPage> {
                     ),
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      RunningController().navigateToRunningSettings(context);
+                    },
                     child: Container(
                       width: SizeConfig.screenWidth! * WidthSizeManager.w225,
                       height: SizeConfig.screenHeight! * HeightSizeManager.h40,

@@ -20,4 +20,10 @@ class Routes {
   static const String exercisePage = "/exercisePage";
   static const String exercisePage2 = "/exercisePage2";
   static const String runningPage = "/runningPage";
+  static const String tipsPage = "/tipsPage";
+  static const String tipsDetailsPage = "/tipsDetailsPage";
+  static const String settingsPage = "/settingsPage";
+  static const String slectLanguagePage = "/slectLanguagePaage";
+  static const String connectPage = "/connectPage";
+  static const String runningSettingsPage = "/runningSettingsPage";
 }

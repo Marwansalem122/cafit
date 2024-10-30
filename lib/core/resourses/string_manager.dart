@@ -47,6 +47,11 @@ class StringsManager {
   static const String done = "Done";
 
   static const String select = "Select";
+  static const String gps = "GPS";
+  static const String pace = "Pace";
+  static const String distance   = "Distance";
+  static const String audioFeedback   = "Audio Feedback";
+  static const String voiceVolumn   = "Voice Volumn";
 
   static const String selectDate = "Select Date";
   static const String k50 = "50kg";
@@ -332,7 +337,12 @@ class StringsManager {
   static const String unloack = "Unlock";
   static const String bpm = "bpm";
   static const String s1510 = "15:10";
+  static const String s50 = "50";
+  static const String slider = "slider";
+  static const String pauseRunForCalls =  "Pause run for calls";
   static const String heart = "Heart";
+  static const String s1 = "1";
+  static const String s100 = "100";
   static const String speed = "Speed";
   static const String s1f2 = "1.200";
   static const String minKm = "min/km";
@@ -341,4 +351,48 @@ class StringsManager {
   static const String S250f2 = "250.2";
   static const String kCal = "kCal";
   static const String density = "Density";
+  static const String aboutTraining = "About Traning";
+  static const String howToWeightLoss = "How to weight loss ?";
+  static const String introducingAboutMeal = "Introducing about meal plan ";
+  static const String waterAndFood = "Water and Food";
+  static const String drinkWater = "Drink water";
+  static const String howManyTimesAday =  "How many times a day to eat";
+  static const String becomeStronger =  "Become stronger";
+  static const String shoesToTraining =  "Shoes To Training";
+  static const String appealTips =  "Appeal Tips";
+  static const String calories =  "Calories";
+  static const String value = "value";
+  static const String sFalse = "False";
+  static const String sTrue = "True";
+  static const String facebook = "Facebook";
+  static const String english = "ENGLISH";
+  static const String type = "type";
+  static const String sSwitch = "switch";
+  static const String sSelect = "select";
+  static const String name = "name";
+  static const String reminders = "Reminders";
+  static const String language = "Language";
+  static const String connected = "Connected";
+  static const String warmUp = "Warm-Up";
+  static const String cooldown = "cool-down";
+  static const String autoPush = "Auto Push";
+  static const String pauseForRunning =  "Pause for Running";
+  static const String arabic = "Arabic";
+  static const String english1 = "English";
+  static const String hindi = "Hindi";
+  static const String bengali = "Bengali";
+  static const String portuguese = "Portuguese";
+  static const String vietnamese = "Vietnamese";
+  static const String russian = "Russian";
+  static const String spanish = "Spanish";
+  static const String connectToFacebook ="Connect to  Fackbook";
+  static const String connectToTwitter ="Connect to  Twitter";
+  static const String connectToLinkedIn ="Connect to  LinkedIn";
+  static const String connectToPinterest ="Connect to  Pinterest";
+  static const String connectToReddit ="Connect to  Reddit";
+  static const String connectToTumblr ="Connect to  Tumblr";
+  static const String chooseToConnectSocialNetwork ="Choose to Connect social network";
+
+
+
 }

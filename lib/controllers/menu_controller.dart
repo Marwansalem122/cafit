@@ -35,7 +35,12 @@ class MenuPageController {
    void navigateToRunningPage(BuildContext context) {
    context.pushNamed(Routes.runningPage);
  }
-
+ void navigateToTipsPage(BuildContext context) {
+   context.pushNamed(Routes.tipsPage);
+ }
+  void navigateToSeetingsPage(BuildContext context) {
+   context.pushNamed(Routes.settingsPage);
+ }
   void navigateBack(BuildContext context) {
     context.pop();
   }

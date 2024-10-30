@@ -316,17 +316,12 @@ class _MenuPageState extends State<MenuPage> {
 
                     break;
                   case "9":
-                    // Navigator.push(
-                    // context,
-                    // MaterialPageRoute(
-                    // builder: (context) => const TipsView()));
-                    MenuPageController().navigateToExercisePage(context);
+                    MenuPageController().navigateToTipsPage(context);
+                    // MenuPageController().navigateToExercisePage(context);
                     break;
                   case "10":
-                    // Navigator.push(
-                    // context,
-                    // MaterialPageRoute(
-                    // builder: (context) => const SettingsView()));
+                    MenuPageController().navigateToSeetingsPage(context);
+
                     break;
                   default:
                 }

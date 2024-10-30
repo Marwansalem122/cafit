@@ -12,6 +12,9 @@ class RunningController {
     context.pushNamed(Routes.runningPage);
   }
 
+void navigateToRunningSettings(BuildContext context) {
+  context.pushNamed(Routes.runningSettingsPage);
+}
   static const List dataArr = [
     {"no": IntManager.i1, "val": IntManager.i60},
     {"no": IntManager.i2, "val": IntManager.i70},

@@ -71,9 +71,24 @@ screen"       width="45%" />
 screen"       width="45%" />
 </p>
 <p align="center">
-<img src="screenshot\running5.png" alt="Training 
+<img src="screenshot\running5.png" alt="running 
 screen"       width="45%" />
-
+<img src="screenshot\running_setting.png" 
+alt="running settings 
+screen"       width="45%" />
+</p>
+<p align="center">
+<img src="screenshot\main_setting.png" 
+alt="setting 
+screen"       width="45%" />
+<img src="screenshot\choose_language.png" 
+alt="choose language settings 
+screen"       width="45%" />
+</p>
+<p align="center">
+<img src="screenshot\connect_feedback.png" 
+alt="connect Feedbac 
+screen"       width="45%" />
 </p>
 
 

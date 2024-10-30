@@ -42,6 +42,12 @@ class AssetsManager {
   static const String timeWallClockImage = "$IMAGE_PATH/time-wall-clock$formatePng";
   static const String rHeartbeatImage = "$IMAGE_PATH/r_heartbeat$formatePng";
   static const String graoup1309Image = "$IMAGE_PATH/Group 1309$formatePng";
+  static const String facebookImage = "$IMAGE_PATH/fb$formatePng";
+  static const String twitterImage = "$IMAGE_PATH/twitter$formatePng";
+  static const String linkdinImage = "$IMAGE_PATH/Linkdin$formatePng";
+  static const String pinterestImage = "$IMAGE_PATH/pinterest$formatePng";
+  static const String redditImage = "$IMAGE_PATH/reddit$formatePng";
+  static const String tumblrImage = "$IMAGE_PATH/tumblr$formatePng";
   
 
 

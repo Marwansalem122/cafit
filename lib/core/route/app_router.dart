@@ -11,8 +11,14 @@ import 'package:cafit/pages/onboarding/step1_page.dart';
 import 'package:cafit/pages/onboarding/step2_page.dart';
 import 'package:cafit/pages/onboarding/step3_page.dart';
 import 'package:cafit/pages/running/running_page.dart';
+import 'package:cafit/pages/running/running_setting_page.dart';
 import 'package:cafit/pages/schedule/schedule_page.dart';
+import 'package:cafit/pages/settings/connect_page.dart';
+import 'package:cafit/pages/settings/select_language_page.dart';
+import 'package:cafit/pages/settings/settings_page.dart';
 import 'package:cafit/pages/splash/splash.dart';
+import 'package:cafit/pages/tips/tips_details_page.dart';
+import 'package:cafit/pages/tips/tips_page.dart';
 import 'package:cafit/pages/weight/weight_pages.dart';
 import 'package:cafit/pages/workout/workout_details_page.dart';
 import 'package:cafit/pages/workout/workout_page.dart';
@@ -59,8 +65,32 @@ class AppRouter {
         return createRoute(const ExercisePage());
       case Routes.exercisePage2:
         return createRoute(const ExercisePage2());
-       case Routes.runningPage:
-   return createRoute(const RunningPage());
+      case Routes.runningPage:
+        return createRoute(const RunningPage());
+      case Routes.tipsPage:
+        return createRoute(const TipsPage());
+      case Routes.tipsDetailsPage:
+        if (argument is Map) {
+          return createRoute(TipsDetailPage(tObj: argument));
+        } else {
+          return materialPageBuilder(const ErrorPage());
+        }
+      case Routes.settingsPage:
+        return createRoute(const SettingsPage());
+      case Routes.slectLanguagePage:
+        if (argument is dynamic Function(Map<dynamic, dynamic>)) {
+          return createRoute(SelectLanguagePage(didSelect: argument));
+        } else {
+          return materialPageBuilder(const ErrorPage());
+        }
+      case Routes.connectPage:
+        if (argument is dynamic Function(Map<dynamic, dynamic>)) {
+          return createRoute(ConnectPage(didSelect: argument));
+        } else {
+          return materialPageBuilder(const ErrorPage());
+        }
+      case Routes.runningSettingsPage:
+        return createRoute(const RunningSettingsPage());
       default:
         return materialPageBuilder(const ErrorPage());
     }
